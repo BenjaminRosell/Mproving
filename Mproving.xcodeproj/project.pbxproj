@@ -398,7 +398,7 @@
 				INFOPLIST_FILE = "WrapperParse/Mproving-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = Mproving;
-				PROVISIONING_PROFILE = "577b97a4-2fa2-4082-af4f-b07ebd1c279d";
+				PROVISIONING_PROFILE = "39aa606e-38cc-4611-ac60-2121f1fd7343";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -418,7 +418,7 @@
 				INFOPLIST_FILE = "WrapperParse/Mproving-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = Mproving;
-				PROVISIONING_PROFILE = "577b97a4-2fa2-4082-af4f-b07ebd1c279d";
+				PROVISIONING_PROFILE = "39aa606e-38cc-4611-ac60-2121f1fd7343";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -26,11 +26,7 @@
 
 -(void)loadURL:(NSNotification*)notification
 {
-	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:[NSString stringWithFormat:@"%@",notification.object] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-	[alert show];
-	
-	NSDictionary *result = [NSJSONSerialization JSONObjectWithData: [[[notification.object objectForKey:@"aps"] objectForKey:@"alert"]			 dataUsingEncoding:NSUTF8StringEncoding]	options: NSJSONReadingMutableContainers error: nil];
-	[webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:[result objectForKey:@"url"]]]];
+    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:[[notification.object objectForKey:@"mproving"] objectForKey:@"url"]]]];
 }
 
 - (void)didReceiveMemoryWarning
